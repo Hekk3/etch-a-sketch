@@ -66,12 +66,12 @@ function defaultColor() {
 	}));
 }
 
-function gradient() {
+/*function gradient() {
 
 	const divList2 = document.querySelectorAll('#grid');
 
 	divList2.forEach(div => div.addEventListener('mouseover', function(e){
-		
+
 	 	let grids = document.getElementById('grid');
 		const divList2 = document.querySelectorAll('#grid');
 		let styles = grids.style.backgroundColor;
@@ -93,102 +93,8 @@ function gradient() {
 			}));
 		}
 	}));
-}
-
-/*function gradient() {
-
-	let grids = document.getElementById('grid');
-	const divList2 = document.querySelectorAll('#grid');
-	let styles = grids.style.backgroundColor;
-
-	if (styles === '') {
-
-		divList2.forEach(div => div.addEventListener('mouseover', function(e){
-		let newStyles = grids.style.backgroundColor = 'rgba(' + 0 + ',' + 0 + ',' + 0 + ',' + 0.1 + ')';
-		console.log(newStyles); 
-		}));
-
-	} else {
-
-		divList2.forEach(div => div.addEventListener('mouseover', function(e){
-		let newStyles = grids.style.backgroundColor = 'rgba(' + 0 + ',' + 0 + ',' + 0 + ',' + 0.6 + ')';
-		console.log(newStyles); 
-		}));
-	}
-}*/
-/*function gradient() {
-
-	let alphaTag = Number(window.getComputedStyle(element).backgroundColor.match(/[.?\d]+/g)[3]);
-
-    if (alphaTag <= 1) {
-        return alphaTag += 0.1;
-    }
-
-    return alphaTag;
 }*/
 
-/*function gradient() {
-	
-	const divList2 = document.querySelectorAll('#grid');
-	divList2.forEach(div => div.addEventListener('mouseover', function(e){
-	const backgroundColorArray = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9];
-	let gradientNumber = div.style.backgroundColor;
-	console.log(gradientNumber);
-	let element = document.getElementById('grid');
-	if (gradientNumber) {
-		let a = a + 2;
-		console.log(a);
-	}
-	//let gradientNumber = div.style.backgroundColor = 'rgba(' + 0 + ',' + 0 + ',' + 0 + ',' + 0.1 + ')';
-	let tmp = gradientNumber.split(',')[3];
-	let val = parseFloat(tmp);
-	/*for (let i = 0; i < backgroundColorArray[i]; i++) {
-		tmp = backgroundColorArray + 0.1;
-		return tmp;
-	}*/
-	/*
-	for (let i of backgroundColorArray) {
-		if (i === val) {
-			val = val + 0.1;
-			console.log(val);
-			div.style.backgroundColor = 'rgba(' + 0 + ',' + 0 + ',' + 0 + ',' + val + ')';
-			return val;
-		}
-		return val; 
-	}
-	
-	}));
-}*/
-
-
-/*function gradient() {
-
-	let element = document.getElementById('grid');
-	let gradientNumber = element.style.backgroundColor;
-	console.log(element);
-
-	if (gradientNumber/*!== undefined || gradientNumber !== NaN) {
-
-		let tmp = gradientNumber.split(',')[3];
-		console.log(tmp);
-	    let val = parseFloat(tmp);
-
-		console.log(val);
-
-		val = val + 0.1;
-
-		const divList2 = document.querySelectorAll('#grid');
-		divList2.forEach(div => div.addEventListener('mouseover', function(e){
-		div.style.backgroundColor = 'rgba(' + 0 + ',' + 0 + ',' + 0 + ',' + val + ')';
-		}));
-
-	} else {
-		const divList2 = document.querySelectorAll('#grid');
-		divList2.forEach(div => div.addEventListener('mouseover', function(e){
-		div.style.backgroundColor = 'rgba(' + 0 + ',' + 0 + ',' + 0 + ',' + 0.1 + ')';
-		}));
-	}
-}*/
 
 
 

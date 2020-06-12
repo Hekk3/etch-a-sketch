@@ -106,4 +106,31 @@ main {
 	flex-direction: column;
 }
 
+/***********************************************adaptiv 1980x1080***************/
 
+@media (min-width: 1920px) {
+	.wrapper {
+		margin-top: 30px;
+	}
+
+	.buttons {
+		margin-top: 25px;
+	}
+
+	input, .btn {
+	    width: 200px;
+	    height: 40px;
+	}
+
+	.random, .default {
+		margin-left: 65px;
+	}
+	
+	.ChBox {
+		margin-top: 30px;
+	}
+
+	.grid-container {
+		box-shadow: 10px 14px 20px 13px;
+	}
+}
