@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>paint</title>
+</head>
+<body>
+	<div class="buttons">
+		<input type="button" onclick="chooseMap()" value="Choose size map!" class="button-one">
+		<input type="button" onclick="reset()" value="Clear, do it!" class="button-two">
+		<!--<input type="button">
+		<input type="button">-->
+	</div>
+	<main>
+		<div class="ChBox">
+			<div class="styleCh">
+				<button class="random btn" id="randomBtn" onclick="random()">Random</button>
+				<button class="default btn" onclick="defaultColor()" id="defaultColor">Black</button>
+				<button class="on-click btn" onclick="gradient()" id="gradient">Gradient</button>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="grid-container" id="gridContainer">
+				
+			</div>
+		</div>
+	</main>
+	<script src="main.js"></script>
+</body>
+</html>
